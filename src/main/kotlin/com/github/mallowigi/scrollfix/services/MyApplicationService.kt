@@ -1,6 +1,6 @@
-package com.github.mallowigi.scrollfix.services
+package com.github.mallowigi.anchovy.services
 
-import com.github.mallowigi.scrollfix.MyBundle
+import com.github.mallowigi.anchovy.MyBundle
 
 class MyApplicationService {
 

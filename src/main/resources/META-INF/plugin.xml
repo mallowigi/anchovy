@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.mallowigi.scrollfix</id>
-    <name>scrollfix</name>
+    <id>com.github.mallowigi.anchovy</id>
+    <name>anchovy</name>
     <vendor>mallowigi</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.mallowigi.scrollfix.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.mallowigi.scrollfix.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.mallowigi.anchovy.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.mallowigi.anchovy.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.mallowigi.scrollfix.listeners.MyProjectManagerListener"
+        <listener class="com.github.mallowigi.anchovy.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

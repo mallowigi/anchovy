@@ -1,7 +1,7 @@
-package com.github.mallowigi.scrollfix.services
+package com.github.mallowigi.anchovy.services
 
 import com.intellij.openapi.project.Project
-import com.github.mallowigi.scrollfix.MyBundle
+import com.github.mallowigi.anchovy.MyBundle
 
 class MyProjectService(project: Project) {
 

@@ -1,4 +1,4 @@
-package com.github.mallowigi.scrollfix
+package com.github.mallowigi.anchovy
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

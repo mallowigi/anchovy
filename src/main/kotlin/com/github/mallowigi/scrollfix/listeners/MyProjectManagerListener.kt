@@ -1,9 +1,9 @@
-package com.github.mallowigi.scrollfix.listeners
+package com.github.mallowigi.anchovy.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.mallowigi.scrollfix.services.MyProjectService
+import com.github.mallowigi.anchovy.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

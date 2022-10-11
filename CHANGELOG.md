@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# scrollfix Changelog
+# anchovy Changelog
 
 ## [Unreleased]
 ### Added
