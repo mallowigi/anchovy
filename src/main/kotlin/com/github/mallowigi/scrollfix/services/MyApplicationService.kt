@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.mallowigi.scrollfix.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.mallowigi.scrollfix.MyBundle
 
 class MyApplicationService {
 
